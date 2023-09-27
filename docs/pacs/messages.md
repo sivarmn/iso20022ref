@@ -15,11 +15,11 @@ Payments clearing and settlement messages
 
 ## pacs.008
 
-An Financial Institution To Financial Institution Customer Credit Transfer message is the inter-bank movement of an amount from a party bank account (the debtor account) to a beneficiary party (the creditor). Financial Institution To Financial Institution Customer Credit Transfer messages result in one or more cash transfers between debtors and creditors through correspondent banks or infrastructures. They may be exchanged as single or grouped instructions following certain common characteristics and, for convenience or efficiency reasons, exchanged in a batch mode. The processing of credit transfers may differ from country to country and system to system.
+Financial Institution To Financial Institution Customer Credit Transfer message is the inter-bank movement of an amount from a party bank account (the debtor account) to a beneficiary party (the creditor). Financial Institution To Financial Institution Customer Credit Transfer messages result in one or more cash transfers between debtors and creditors through correspondent banks or infrastructures. They may be exchanged as single or grouped instructions following certain common characteristics and, for convenience or efficiency reasons, exchanged in a batch mode. The processing of credit transfers may differ from country to country and system to system.
 
 ## pacs.009
 
-A Financial Institution Credit Transfer message is the inter-bank movement of an amount from a party bank account (the debtor) to a beneficiary party (the creditor) where all parties are financial institutions. Financial Institution Credit Transfer messages result in cash transfers between debtors and creditors through correspondent banks or infrastructures. They may be exchanged as single instructions or grouped following certain common characteristics and, for convenience or efficiency reasons, exchanged in a batch mode. The processing of credit transfers may differ from country to country and system to system.
+Financial Institution Credit Transfer message is the inter-bank movement of an amount from a party bank account (the debtor) to a beneficiary party (the creditor) where all parties are financial institutions. Financial Institution Credit Transfer messages result in cash transfers between debtors and creditors through correspondent banks or infrastructures. They may be exchanged as single instructions or grouped following certain common characteristics and, for convenience or efficiency reasons, exchanged in a batch mode. The processing of credit transfers may differ from country to country and system to system.
 
 pacss.009 has two variants.
 

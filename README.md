@@ -1,41 +1,11 @@
-# Website
+# Foreword
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is an attempt to document information I have learned about [ISO20022](https://www.iso20022.org/) payment messages in a simple and structured way.
 
-### Installation
+## Request for information
 
-```
-$ yarn
-```
+If the information presented is not clear or missing additional context or new infomation needed, please raise an issue or change request or pull request in the [github repository](http://localhost:3000/blog/greetings). We can collaboratively work together to improve the documentation.
 
-### Local Development
+## Submit an issue
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Any discrepancies or issues or outdated information? Submit an issue in the [github repository](http://localhost:3000/blog/greetings).
