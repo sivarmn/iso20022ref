@@ -15,7 +15,13 @@ pacs.008 will be sent if you as a customer request your bank to do a funds trans
 - You being a corporate may have your own ERP system and that is integrated with the banks system and can request the payment through a pain.001 (payments initiation) message or
 - You can request a payment through some propreitary integration with the bank that doesnt involve pain.001
 
+The above will result in an outgoing pacs.008 from your bank
+
 :::
+
+## Structure
+
+![Structure](./img/pacs.008.structure.png)
 
 ## Message flow where your bank and their bank are correspondents
 

@@ -17,6 +17,8 @@ pacs.009 has two main use cases
 
 :::
 
+## Structure
+
 ![pacs.009](./img/pacs.009.png)
 
 :::info
@@ -28,9 +30,10 @@ This is the key attribute to differentiate between the core and cover use cases.
 
 ## When is core payment used?
 
+Any Bank to Bank contracts or transactions such as
+
 - Bank A has agreed to a foreign exchange deal with Bank B or
-- Bank A has agreed to a money market deal with Bank B or
-- Any Bank to Bank contracts or transactions
+- Bank A has agreed to a money market deal with Bank B
 
 ![pacs.009 core](./img/pacs.009.core.png)
 

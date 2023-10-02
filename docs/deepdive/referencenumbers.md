@@ -59,3 +59,59 @@ This is mainly used in SWIFT and can uniquely identify a transaction from any Ba
 ### Clearing System Reference
 
 **Definition:** Unique reference, as assigned by a clearing system, to unambiguously identify the instruction.
+
+## Examples
+
+Reference numbers assigned for some of the message flows are listed below
+
+### Correspondents
+
+![Correspondents](../pacs/pacs.008/img/simple.png)
+
+| ID                         | Assigned By                                              |
+| -------------------------- | -------------------------------------------------------- |
+| Instruction Identification | Your Bank (Creator of this message)                      |
+| Message Identification     | Your Bank (Creator of this message)                      |
+| End To End Identification  | You (Initiating Party - pain.001 creator)                |
+| Transaction Identification | Your Bank (First instructing agent in the payment chain) |
+| UETR                       | Your Bank (First instructing agent in the payment chain) |
+| Clearing System Reference  | N/A (No Clearing System Involved)                        |
+
+### Clearing System
+
+![Correspondents](../pacs/pacs.008/img/clearing.png)
+
+| ID                         | Assigned By                                              |
+| -------------------------- | -------------------------------------------------------- |
+| Instruction Identification | Your Bank (Creator of this message)                      |
+| Message Identification     | Your Bank (Creator of this message)                      |
+| End To End Identification  | You (Initiating Party - pain.001 creator)                |
+| Transaction Identification | Your Bank (First instructing agent in the payment chain) |
+| UETR                       | Your Bank (First instructing agent in the payment chain) |
+| Clearing System Reference  | Clearing System                                          |
+
+### Serial Flow
+
+![Correspondents](../pacs/pacs.008/img/serial.png)
+
+#### First pacs.008
+
+| ID                         | Assigned By                                              |
+| -------------------------- | -------------------------------------------------------- |
+| Instruction Identification | Your Bank (Creator of this message)                      |
+| Message Identification     | Your Bank (Creator of this message)                      |
+| End To End Identification  | You (Initiating Party - pain.001 creator)                |
+| Transaction Identification | Your Bank (First instructing agent in the payment chain) |
+| UETR                       | Your Bank (First instructing agent in the payment chain) |
+| Clearing System Reference  | N/A (No Clearing System Involved)                        |
+
+#### Second pacs.008
+
+| ID                         | Assigned By                                              |
+| -------------------------- | -------------------------------------------------------- |
+| Instruction Identification | Intermediary Bank (Creator of this message)              |
+| Message Identification     | Intermediary Bank (Creator of this message)              |
+| End To End Identification  | You (Initiating Party - pain.001 creator)                |
+| Transaction Identification | Your Bank (First instructing agent in the payment chain) |
+| UETR                       | Your Bank (First instructing agent in the payment chain) |
+| Clearing System Reference  | N/A (No Clearing System Involved)                        |

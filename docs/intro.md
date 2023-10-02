@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Foreword
 
-This website is an attempt to document information I have learned about [ISO20022](https://www.iso20022.org/) payment messages in a simple and structured way.
+This website is an attempt to document information I have learned about [ISO20022](https://www.iso20022.org/) payment messages in a simple and structured way. Some of the information presented here are collated from different sources.
 
 ## Request for information
 
