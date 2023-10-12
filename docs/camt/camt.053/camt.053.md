@@ -30,4 +30,4 @@ Statement section will be repeated for different accounts
 
 ## Message Flow
 
-![Messahe Flow](../camt.052/img/camt.052.053.054.060.png)
+![Message Flow](../camt.052/img/camt.052.053.054.060.png)

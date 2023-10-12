@@ -22,6 +22,19 @@ Examples: Payment status, Transaction purpose, Rejected reason
 
 ## Transaction Codes
 
-The transaction codes in the statements are also external and should follow the transaction code sets and combinations.
+The structure of the Bank Transaction Code component includes the following 3 levels:
 
-[Transaction Codes](https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets)
+![Transaction Codes Definition](./img/transaction-codes.png)
+
+The transaction codes in the statements are external and should follow the transaction code sets and combinations.
+
+### Examples
+
+| Domain   | Domain Code | Family                          | Family Code | Sub Family | Sub Family Code |
+| -------- | ----------- | ------------------------------- | ----------- | ---------- | --------------- |
+| Payments | PMNT        | Received Credit Transfers       | RCDT        | Other      | OTHR            |
+| Payments | PMNT        | Received Direct Debits          | RDDT        | Other      | OTHR            |
+| Payments | PMNT        | Miscellaneous Credit Operations | MCOP        | Fees       | FEES            |
+| Payments | PMNT        | Miscellaneous Credit Operations | MCOP        | Commission | COMM            |
+
+[Complete Transaction Codes](https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets)

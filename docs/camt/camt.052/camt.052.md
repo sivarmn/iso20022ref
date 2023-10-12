@@ -46,4 +46,4 @@ Entry(Ntry) - Status(Sts) - Code(Cd) tag will provide the status of the entry
 
 ## Message Flow
 
-![Messahe Flow](./img/camt.052.053.054.060.png)
+![Message Flow](./img/camt.052.053.054.060.png)

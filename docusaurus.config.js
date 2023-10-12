@@ -70,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/iso20022ref-social-card.png",
       navbar: {
         title: "ISO2022",
         logo: {
@@ -89,11 +89,15 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Info",
             items: [
               {
                 label: "Documentation",
                 to: "/",
+              },
+              {
+                label: "Linkedin",
+                to: "https://www.linkedin.com/in/sivarmn/",
               },
             ],
           },
